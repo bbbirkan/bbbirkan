@@ -2,33 +2,23 @@
 
 ## Bridging the Gap Between Asphalt & Algorithms
 
-I drive 18-wheelers and build AI-driven software systems. While others theorize about supply chains, I live them—seeing inefficiencies firsthand from the cab of a truck while engineering solutions with code.
-
-**Currently:** Professional driver at Covenant Logistics | Building toward owner-operator status  
-**Company:** Founder, Anvilon LLC  
-**Future:** Kalyon.us - Owner-operator transportation venture
-
----
-
 ### 🚛 What I Do
-
 **On the Road:**
 - Professional driver operating across continental US
-- Training for owner-operator status
-- Researching logistics market opportunities
-- Identifying real-world logistics inefficiencies that inform my software work
+- Observing logistics inefficiencies firsthand
+- Gathering real-world data for software solutions
+- Funding my tech ventures while building Anvilon
 
 **In Code:**
 - iOS Development (Swift, UIKit, SwiftUI, Core Data, MapKit)
 - Web Engineering (Next.js, React, TypeScript, Vite)
 - Automation & AI (n8n workflows, Python, LLM integration)
 - Cloud Infrastructure (Docker, Kubernetes, AWS, GCP, Coolify)
-- PineScript
+- Trading Systems (Pine Script for algorithmic trading)
 
 ---
 
 ### 🏢 Anvilon - Full-Cycle Growth Studio
-
 Founded **Anvilon LLC** - a boutique consultancy bridging physical logic with high-end code. We combine engineering, market intelligence, and growth strategy.
 
 **The Core Team:**
@@ -42,7 +32,6 @@ Founded **Anvilon LLC** - a boutique consultancy bridging physical logic with hi
 ---
 
 ### 🛠️ Key Projects
-
 #### [Waymind](https://waymind.net) - iOS App (Published)
 AI-powered location assistant - your "second brain" for remembering why you saved a place. Live on App Store.
 
@@ -84,24 +73,24 @@ Custom n8n workflows for YouTube content analysis, financial news summarization 
 ---
 
 ### 💼 Professional Focus
-
 **Engineering Specializations:**
 - iOS App Development (Swift, published apps on App Store)
 - Full-Stack Web (Next.js, React, TypeScript, PHP/WordPress)
 - Automation Architecture (n8n, complex workflow design)
 - Cloud Infrastructure (Multi-server orchestration, Docker, Coolify)
 - AI/LLM Integration (GPT, Claude, Gemini APIs)
+- Algorithmic Trading Systems (Pine Script, market automation)
 
 **Domain Expertise:**
 - Transportation & Logistics (firsthand operational experience)
 - Supply Chain Optimization
 - Data-Driven Decision Making
 - Business Intelligence
+- Financial Markets & Trading Automation
 
 ---
 
 ### 💡 Philosophy
-
 > "You can't automate what you don't understand."
 
 I reject dogma. Whether analyzing route optimization from a truck cab or debugging a production server at a rest stop, I strip problems down to their fundamental truths using first-principles thinking.
@@ -112,14 +101,13 @@ I reject dogma. Whether analyzing route optimization from a truck cab or debuggi
 - Combine domain expertise with technical execution
 - Ship products, measure results, iterate
 
-**Interests:** Critical Thinking • Nuclear Physics • AI Symbiosis • Supply Chain Innovation • Econometrics
+**Interests:** Critical Thinking • Nuclear Physics • AI Symbiosis • Supply Chain Innovation • Econometrics • Algorithmic Trading
 
 ---
 
 ### 🔧 Tech Stack
-
 ```
-Languages:      Swift, TypeScript, JavaScript, Python, PHP, Go
+Languages:      Swift, TypeScript, JavaScript, Python, PHP, Go, Pine Script
 iOS:            SwiftUI, UIKit, Core Data, MapKit, StoreKit
 Web:            Next.js, React, Vite, TailwindCSS, Vanilla CSS
 Backend:        Node.js, PocketBase, n8n, Express
@@ -127,4 +115,13 @@ DevOps:         Docker, Kubernetes, Coolify, GitHub Actions
 Cloud:          AWS, Google Cloud Platform, Contabo VPS
 Databases:      PostgreSQL, MySQL, SQLite, Core Data
 APIs:           OpenAI, Anthropic, Google Gemini, YouTube, Brevo
+Trading:        Pine Script, TradingView, Market Data APIs
 ```
+
+---
+
+### 📫 Connect
+- **Website:** [birkan.us](https://birkan.us)
+- **Email:** info@birkan.us
+- **LinkedIn:** [linkedin.com/in/birkan-kalyon](https://linkedin.com/in/birkan-kalyon)
+- **Company:** [anvilon.us](https://anvilon.us)
