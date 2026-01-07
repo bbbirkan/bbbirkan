@@ -23,6 +23,7 @@ I drive 18-wheelers and build AI-driven software systems. While others theorize 
 - Web Engineering (Next.js, React, TypeScript, Vite)
 - Automation & AI (n8n workflows, Python, LLM integration)
 - Cloud Infrastructure (Docker, Kubernetes, AWS, GCP, Coolify)
+- PineScript
 
 ---
 
