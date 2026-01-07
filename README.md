@@ -35,4 +35,4 @@ Bridging the gap between high-level AI research, robust mobile architecture, and
 My journey spans from engineering complex mobile ecosystems to navigating the American highways. I am dedicated to digitizing the logistics industry through the power of Agentic AI and robust software architecture.
 
 ---
-**Location:** Tennessee, USA | **GitHub:** [@bbbirkan](https://github.com/bbbirkan)
+**Location:** NEW JERSEY, USA | **GitHub:** [@bbbirkan](https://github.com/bbbirkan)
