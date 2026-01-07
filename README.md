@@ -15,7 +15,7 @@ I drive 18-wheelers and build AI-driven software systems. While others theorize 
 **On the Road:**
 - Professional driver operating across continental US
 - Training for owner-operator status
-- Researching Tennessee logistics market opportunities
+- Researching logistics market opportunities
 - Identifying real-world logistics inefficiencies that inform my software work
 
 **In Code:**
