@@ -27,41 +27,46 @@
 
 ## Shipped
 
-**Voltara Signal** — financial intelligence API
-Pulls stock sentiment out of finance media at scale: transcript ingestion, LLM entity
-extraction, and a signal layer on top. `Python` `PostgreSQL` `DuckDB` `Whisper`
+**[Voltara Signal](https://voltara.anvilon.net)** — financial intelligence API, live on RapidAPI
+21 finance channels watched around the clock, 3,200+ transcripts indexed, AI-extracted
+sentiment per ticker — and every directional call scored against the actual market-adjusted
+return, not just logged. Query a stock, get the signal in milliseconds.
+`FastAPI` `NLP pipeline` `PostgreSQL` · *informational sentiment data, not investment advice*
+
+**Covenant Fuel** — enterprise iOS + dashboard for a Nasdaq-listed carrier
+A fuel logic engine for Covenant Logistics (CVLG): 2,500+ trucks, refueling decisions
+optimized against net margin. Native iOS app plus a PWA dashboard.
+`Swift` `TypeScript` `PWA` — [covenantfuel.com](https://covenantfuel.com)
+
+**[President Politics](https://president-politics.anvilon.net)** — research, published either way
+27,564 presidential social posts scored against Mag7 price reactions since 2022. The finding:
+magnitude is predictable, direction never was. Negative results published, SSRN paper filed.
+Testing a claim honestly is the product.
 
 **[Waymind](https://waymind.net)** — iOS · [live on the App Store](https://apps.apple.com/us/app/waymind/id6757075542)
-A second brain for places: save a spot, and it remembers *why* you saved it.
-`Swift` `SwiftUI` `Core Data` `MapKit` `StoreKit` — designed, built, submitted and shipped solo.
+Zero-latency spatial distance analysis in a 2.4 MB binary. 100% on-device — no cloud, no leaks.
+`Swift` `SwiftUI` `MapKit` `StoreKit` — designed, built, submitted and shipped solo.
 
-**[Covenant Fuel](https://covenantfuel.com)** — fuel management for fleets
-The tool I wanted while burning the diesel myself. `TypeScript` `Swift` (iOS + web)
+**Project Vitality** — a real-time demographic engine simulating population shift out to 2100.
+**Digital Fleet Core** — the full digital backbone for CanAuto Group, a client since 2018.
 
-**[anvilon.net](https://anvilon.net)** — the studio platform
-`Next.js` `TypeScript` `PocketBase` `n8n`, self-hosted on Coolify.
-
-Also live — [futuretime.app](https://futuretime.app) · [platonservis.com](https://platonservis.com) · [birkan.us](https://birkan.us) · [kalyon.net](https://kalyon.net) · [ongan.uk](https://ongan.uk) · [ruzilia.com](https://ruzilia.com) · [canautocare.com](https://canautocare.com) · [canautogroup.com](https://canautogroup.com)
+Also live — [anvilon.net](https://anvilon.net) · [futuretime.app](https://futuretime.app) · [platonservis.com](https://platonservis.com) · [birkan.us](https://birkan.us) · [kalyon.net](https://kalyon.net) · [ongan.uk](https://ongan.uk) · [ruzilia.com](https://ruzilia.com) · [canautocare.com](https://canautocare.com) · [canautogroup.com](https://canautogroup.com)
 
 ---
 
 ## What I'm building now
 
-**Turning operational exhaust into decisions.** Most field-service businesses already
-generate the data that would answer their expensive questions — it's just scattered across
-spreadsheets, dispatch calls and someone's memory. The work is extraction, modelling, and
-then a dashboard nobody has to be trained to read.
+**Data products with an API in front of them.** Voltara Signal is the template: ingest a messy
+public data stream, extract structure with an NLP pipeline, score the output against reality,
+then sell query access instead of a report. More of these are in the pipe.
 
-**Market data pipelines.** Indicator research and backtesting where the boring-but-decisive
-part is built first: look-ahead detection, holdout discipline, and validation gates that are
-themselves tested against deliberately cheating inputs. A gate that always passes isn't a gate.
+**Validation that actually validates.** The backtesting work taught me the expensive lesson —
+a gate that always passes isn't a gate. So the harnesses now get fed deliberately cheating
+inputs and have to catch them, and look-ahead detection runs before any result is believed.
 
-**President Politics** — an archive of presidential social posts against subsequent market
-price reactions. Historical impact analysis, explicitly not a prediction product.
-
-**Autonomous agent infrastructure.** A self-hosted, multi-model orchestration layer that
-routes work by cost and capability, keeping the expensive reasoning for decisions rather
-than grunt work.
+**Turning operational exhaust into decisions.** Field-service businesses already generate the
+data that answers their expensive questions; it's just scattered across spreadsheets, dispatch
+calls and someone's memory. Extraction, modelling, then a dashboard nobody needs training for.
 
 Most of this lives in private repos. Ask and I'll walk you through any of it.
 
@@ -107,8 +112,10 @@ deliberately short:
 | **2 · Automation dashboards** | Findings become live dashboards and workflows. Build once, run forever. |
 | **3 · Custom applications** | Native iOS and the data pipelines behind it. |
 
-Engineering is mine. **Ruzilia Kalyon** brings 10+ years of FMCG/retail analytics
-(Henkel, Danone) and **Hüseyin Ongan Aydoğdu** runs growth (UK finance, Publicis/Zenith).
+Full-stack and data engineering is mine. **Ruzilia Kalyon** (Director of Strategy, ex-Magnit
+& Henkel logistics) writes the operational-bottleneck half of every audit, and **Hüseyin Ongan
+Aydoğdu** (Market Intelligence, London) benchmarks pricing, inventory turns and CAC against
+the industry.
 
 **→ [anvilon.net](https://anvilon.net)** · [info@birkan.us](mailto:info@birkan.us)
 
