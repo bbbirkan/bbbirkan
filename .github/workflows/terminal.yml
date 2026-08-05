@@ -1,0 +1,55 @@
+name: Rebuild terminal SVG
+
+# Keeps the "built <date>" line honest. The repo count only refreshes when a
+# PROFILE_TOKEN secret with read access to private repos is present; without it
+# the build reuses the last committed count instead of silently reporting the
+# public-only number.
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/**"
+      - ".github/workflows/terminal.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: terminal-svg
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: |
+          if [ -n "$GITHUB_TOKEN" ]; then
+            python3 scripts/build.py
+          else
+            echo "PROFILE_TOKEN not set - refreshing date only"
+            python3 scripts/build.py --no-live
+          fi
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- assets; then
+            echo "no change"
+            exit 0
+          fi
+          git add assets
+          git commit -m "chore: refresh terminal SVG"
+          git push

@@ -1,4 +1,12 @@
-# 👋 Birkan Kalyon
+<!-- The terminal below is generated: `python3 scripts/build.py`, rebuilt daily by
+     .github/workflows/terminal.yml. Edit scripts/script_lines.py, not the SVG. -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/terminal-light.svg">
+    <img alt="birkan@anvilon: ~/profile" src="assets/terminal-dark.svg" width="900">
+  </picture>
+</p>
 
 ## Bridging the Gap Between Asphalt & Algorithms
 
