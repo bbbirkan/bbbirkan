@@ -23,6 +23,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+import render_badges
 from palette import PALETTES
 from render_svg import render
 from script_lines import build_lines
@@ -49,6 +50,10 @@ def main() -> int:
         target = out_dir / f"terminal-{palette['name']}.svg"
         target.write_text(render(lines, palette, WINDOW_TITLE), encoding="utf-8")
         written.append((target, target.stat().st_size))
+
+        chips = out_dir / f"credentials-{palette['name']}.svg"
+        chips.write_text(render_badges.render(palette), encoding="utf-8")
+        written.append((chips, chips.stat().st_size))
 
     for target, size in written:
         print(f"wrote {target}  ({size / 1024:.1f} KB)")
