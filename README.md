@@ -38,27 +38,41 @@ A fuel logic engine for Covenant Logistics (CVLG): 2,500+ trucks, refueling deci
 optimized against net margin. Native iOS app plus a PWA dashboard.
 `Swift` `TypeScript` `PWA` — [covenantfuel.com](https://covenantfuel.com)
 
-**[President Politics](https://president-politics.anvilon.net)** — research, published either way
-27,564 presidential social posts scored against Mag7 price reactions since 2022. The finding:
-magnitude is predictable, direction never was. Negative results published, SSRN paper filed.
-Testing a claim honestly is the product.
-
 **[Waymind](https://waymind.net)** — iOS · [live on the App Store](https://apps.apple.com/us/app/waymind/id6757075542)
 Zero-latency spatial distance analysis in a 2.4 MB binary. 100% on-device — no cloud, no leaks.
 `Swift` `SwiftUI` `MapKit` `StoreKit` — designed, built, submitted and shipped solo.
 
-**Project Vitality** — a real-time demographic engine simulating population shift out to 2100.
-**Digital Fleet Core** — the full digital backbone for CanAuto Group, a client since 2018.
+**Digital Fleet Core** — the whole digital backbone for CanAuto Group and CanAuto Care,
+unifying showrooms and service centers. Client since 2018, still shipping.
 
-Also live — [anvilon.net](https://anvilon.net) · [futuretime.app](https://futuretime.app) · [platonservis.com](https://platonservis.com) · [birkan.us](https://birkan.us) · [kalyon.net](https://kalyon.net) · [ongan.uk](https://ongan.uk) · [ruzilia.com](https://ruzilia.com) · [canautocare.com](https://canautocare.com) · [canautogroup.com](https://canautogroup.com)
+---
+
+## [Anvilon Data Division](https://anvilon.net/data) — research, published either way
+
+**Dead Load** — *why 4 in 5 trucking owner-operators don't survive five years*
+Monte Carlo survival analysis, n=10,000, with a simulator you can run yourself. I've spent
+three years inside America's most independent industry; this is the model of what actually
+kills the businesses in it.
+
+**The Red Line's Whisper** — *are falling fertility rates a crisis or a correction?*
+A demographic engine simulating population shift out to 2100, testing the "rational pause"
+theory rather than assuming the panic.
+
+**[President Politics](https://president-politics.anvilon.net)** — 27,564 presidential posts scored against Mag7 price reactions since
+2022. Magnitude turned out predictable; direction never did. The negative result is the
+finding, and it's published — SSRN paper filed.
+
+`Python` `Monte Carlo` `React` `Recharts` · [read the research →](https://anvilon.net/data)
 
 ---
 
 ## What I'm building now
 
-**Data products with an API in front of them.** Voltara Signal is the template: ingest a messy
-public data stream, extract structure with an NLP pipeline, score the output against reality,
-then sell query access instead of a report. More of these are in the pipe.
+**Indexes, sold by the query.** This is the direction the studio is heading. Voltara Signal is
+the template: take a public stream nobody has structured — thousands of hours of finance video —
+index it, extract entities and sentiment with an NLP pipeline, score every call against what the
+market actually did, then sell API access to the index instead of a PDF report. The corpus is
+the asset; the endpoint is the product. More indexes are being built the same way.
 
 **Validation that actually validates.** The backtesting work taught me the expensive lesson —
 a gate that always passes isn't a gate. So the harnesses now get fed deliberately cheating
