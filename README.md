@@ -112,11 +112,6 @@ deliberately short:
 | **2 · Automation dashboards** | Findings become live dashboards and workflows. Build once, run forever. |
 | **3 · Custom applications** | Native iOS and the data pipelines behind it. |
 
-Full-stack and data engineering is mine. **Ruzilia Kalyon** (Director of Strategy, ex-Magnit
-& Henkel logistics) writes the operational-bottleneck half of every audit, and **Hüseyin Ongan
-Aydoğdu** (Market Intelligence, London) benchmarks pricing, inventory turns and CAC against
-the industry.
-
 **→ [anvilon.net](https://anvilon.net)** · [info@birkan.us](mailto:info@birkan.us)
 
 <p align="center">
