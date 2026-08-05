@@ -27,31 +27,41 @@
 
 ## Shipped
 
+**Voltara Signal** — financial intelligence API
+Pulls stock sentiment out of finance media at scale: transcript ingestion, LLM entity
+extraction, and a signal layer on top. `Python` `PostgreSQL` `DuckDB` `Whisper`
+
 **[Waymind](https://waymind.net)** — iOS · [live on the App Store](https://apps.apple.com/us/app/waymind/id6757075542)
 A second brain for places: save a spot, and it remembers *why* you saved it.
 `Swift` `SwiftUI` `Core Data` `MapKit` `StoreKit` — designed, built, submitted and shipped solo.
 
+**[Covenant Fuel](https://covenantfuel.com)** — fuel management for fleets
+The tool I wanted while burning the diesel myself. `TypeScript` `Swift` (iOS + web)
+
 **[anvilon.net](https://anvilon.net)** — the studio platform
 `Next.js` `TypeScript` `PocketBase` `n8n`, self-hosted on Coolify.
 
-**[platonservis.com](https://platonservis.com)** — client site, live
-`Vite` `YouTube API`, dynamic content on a dark theme.
-
-Also live — [canautocare.com](https://canautocare.com) · [canautogroup.com](https://canautogroup.com) · [birkan.us](https://birkan.us) · FutureTime (iOS + web)
+Also live — [futuretime.app](https://futuretime.app) · [platonservis.com](https://platonservis.com) · [birkan.us](https://birkan.us) · [kalyon.net](https://kalyon.net) · [ongan.uk](https://ongan.uk) · [ruzilia.com](https://ruzilia.com) · [canautocare.com](https://canautocare.com) · [canautogroup.com](https://canautogroup.com)
 
 ---
 
 ## What I'm building now
 
+**Turning operational exhaust into decisions.** Most field-service businesses already
+generate the data that would answer their expensive questions — it's just scattered across
+spreadsheets, dispatch calls and someone's memory. The work is extraction, modelling, and
+then a dashboard nobody has to be trained to read.
+
+**Market data pipelines.** Indicator research and backtesting where the boring-but-decisive
+part is built first: look-ahead detection, holdout discipline, and validation gates that are
+themselves tested against deliberately cheating inputs. A gate that always passes isn't a gate.
+
+**President Politics** — an archive of presidential social posts against subsequent market
+price reactions. Historical impact analysis, explicitly not a prediction product.
+
 **Autonomous agent infrastructure.** A self-hosted, multi-model orchestration layer that
-routes work across Claude, Gemini and open models by cost and capability, with the expensive
-reasoning reserved for decisions instead of grunt work.
-
-**Market data pipelines.** Indicator research and backtesting on top of Alpaca and Coinbase,
-with the boring-but-decisive part built first: look-ahead detection, holdout discipline, and
-gates that are themselves tested against deliberately cheating inputs.
-
-**Logistics tooling.** Fuel and route utilities built for the problems I hit personally.
+routes work by cost and capability, keeping the expensive reasoning for decisions rather
+than grunt work.
 
 Most of this lives in private repos. Ask and I'll walk you through any of it.
 
@@ -74,23 +84,31 @@ I build for constraints I've stood inside, not ones I imagined.
 ## Stack
 
 ```
-iOS         Swift · SwiftUI · UIKit · Core Data · MapKit · StoreKit
-Web         Next.js · React · TypeScript · Vite · Tailwind
-Data        PostgreSQL · SQLite · PocketBase
+Data        PostgreSQL · DuckDB · SQLite · pandas · backtesting harnesses
 Automation  Python · n8n · Claude/OpenAI/Gemini APIs · Whisper
+iOS         Swift · SwiftUI · UIKit · Core Data · MapKit · StoreKit
+Web         Next.js · React · TypeScript · Vite · Tailwind · PocketBase
 Infra       Docker · Coolify · Cloudflare · Contabo · GitHub Actions
-Trading     Alpaca API · Coinbase API · Pine Script / TradingView
+Markets     Alpaca API · Coinbase API · Pine Script / TradingView
 ```
 
 ---
 
 ## Work with me
 
-**[Anvilon LLC](https://anvilon.net)** is a small New Jersey studio that ships instead of pitching —
-native iOS, Next.js platforms, and the automation that removes the manual step nobody wants to
-do twice. Engineering is mine; **Ruzilia Kalyon** brings 10+ years of FMCG/retail market
-intelligence (Henkel, Danone) and **Hüseyin Ongan Aydoğdu** runs growth (UK finance,
-Publicis/Zenith).
+### [Anvilon LLC](https://anvilon.net) — *"Your data hides money. We find it."*
+
+A small New Jersey systems studio for field-service operations. The engagement ladder is
+deliberately short:
+
+| | |
+|---|---|
+| **1 · Forensic systems audit** | 30–40 hours of analysis, one-time fee, zero ongoing commitment. Find where the money is leaking. |
+| **2 · Automation dashboards** | Findings become live dashboards and workflows. Build once, run forever. |
+| **3 · Custom applications** | Native iOS and the data pipelines behind it. |
+
+Engineering is mine. **Ruzilia Kalyon** brings 10+ years of FMCG/retail analytics
+(Henkel, Danone) and **Hüseyin Ongan Aydoğdu** runs growth (UK finance, Publicis/Zenith).
 
 **→ [anvilon.net](https://anvilon.net)** · [info@birkan.us](mailto:info@birkan.us)
 
