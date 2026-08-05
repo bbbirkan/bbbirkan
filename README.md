@@ -12,7 +12,7 @@
 
 ### 🚛 What I Do
 **On the Road:**
-- Professional driver operating across continental US
+- DoD-cleared CDL-A driver — SF-86 adjudicated, sensitive/high-value freight
 - Observing logistics inefficiencies firsthand
 - Gathering real-world data for software solutions
 - Funding my tech ventures while building Anvilon
@@ -30,12 +30,12 @@
 Founded **Anvilon LLC** - a boutique consultancy bridging physical logic with high-end code. We combine engineering, market intelligence, and growth strategy.
 
 **The Core Team:**
-- **Birkan Kalyon (Builder):** Engineering Lead - iOS/Full-Stack/Automation
+- **Birkan Kalyon (Builder):** Founder & Systems Engineer - iOS/Full-Stack/Automation
 - **Ruzilia Kalyon (Analyst):** Market Intelligence Lead - 10+ years FMCG/Retail (Henkel, Danone)
 - **Hüseyin Ongan Aydoğdu (Strategist):** Growth Lead - Senior Consultant (UK Finance, Publicis/Zenith)
 
 **Philosophy:** *"Precision in Code. Growth is Math."*  
-**Website:** [anvilon.us](https://anvilon.us)
+**Website:** [anvilon.net](https://anvilon.net)
 
 ---
 
@@ -47,7 +47,7 @@ AI-powered location assistant - your "second brain" for remembering why you save
 **Company:** Anvilon LLC  
 **App Store:** [Download Now](https://apps.apple.com/us/app/waymind/id6757075542)
 
-#### [Anvilon Web Platform](https://anvilon.us)
+#### [Anvilon Web Platform](https://anvilon.net)
 Full-cycle growth studio consultancy website with digital product store and service offerings.
 
 **Stack:** Next.js 15, TypeScript, TailwindCSS 4, PocketBase  
@@ -132,4 +132,4 @@ Trading:        Pine Script, TradingView, Market Data APIs
 - **Website:** [birkan.us](https://birkan.us)
 - **Email:** info@birkan.us
 - **LinkedIn:** [linkedin.com/in/birkan-kalyon](https://linkedin.com/in/birkan-kalyon)
-- **Company:** [anvilon.us](https://anvilon.us)
+- **Company:** [anvilon.net](https://anvilon.net)
