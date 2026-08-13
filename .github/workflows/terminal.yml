@@ -44,8 +44,8 @@ jobs:
 
       - name: Commit if changed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Birkan Kalyon"
+          git config user.email "58374229+bbbirkan@users.noreply.github.com"
           if git diff --quiet -- assets; then
             echo "no change"
             exit 0
