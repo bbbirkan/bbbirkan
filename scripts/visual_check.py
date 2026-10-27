@@ -23,7 +23,7 @@ from pathlib import Path
 
 from playwright.sync_api import Page, sync_playwright
 
-FRAME_TIMES = (0.5, 2.5, 6.0, 9.5, 13.0, 15.5)
+FRAME_TIMES = (0.5, 2.5, 6.0, 9.5, 13.0, 15.5, 18.0, 20.5)
 VIEWPORT = {"width": 960, "height": 720}
 SETTLE_MS = 260
 

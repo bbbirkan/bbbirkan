@@ -249,8 +249,12 @@ def _body_text(laid_out: list[dict], palette: dict) -> str:
         spans = "".join(
             f'<tspan class="{cls}">{_esc(text)}</tspan>' for cls, text in line["segments"]
         )
+        # Pin the rendered width to the CHAR_W grid the reveal clip steps on: a viewer
+        # whose mono font is wider than 0.6em (seen on Mac) otherwise gets line ends cut.
+        chars = sum(len(text) for _, text in line["segments"])
         rows.append(
             f'<text x="{CONTENT_X}" y="{line["y"]}" xml:space="preserve" '
+            f'textLength="{chars * CHAR_W:g}" lengthAdjust="spacingAndGlyphs" '
             f'clip-path="url(#r{index})">{spans}</text>'
         )
     return "<g>\n" + "\n".join(rows) + "\n</g>\n"
