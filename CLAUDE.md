@@ -55,8 +55,9 @@ an external reference camo would strip, the two palettes drifting apart geometri
 | Title | Founder & Systems Engineer (not "Engineering Lead") |
 | The YouTube pipeline | Belongs to **Voltara Signal**, nothing else |
 | platonservis.com | A repair shop built for family. **Keep it off the profile.** |
-| Voltara Signal | Financial intelligence API, **live on RapidAPI**, 21 channels, 3,200+ transcripts |
-| Covenant Fuel | Enterprise work for Covenant Logistics (Nasdaq: CVLG), 2,500+ trucks |
+| Voltara Signal | Financial intelligence API, **live on RapidAPI**, 23 channels, 3,800+ transcripts (anvilon.net, 2026-10-27) |
+| Covenant Fuel | **Removed from the profile** (Birkan, 2026-10-27) — do not re-add |
+| Anvilon Arena | arena.anvilon.net — bots vs buy-and-hold paper race, started 2026-10-19 |
 | President Politics | 27,564 posts. Magnitude predictable, direction never. Historical analysis, **not prediction** — keep that framing |
 | Anvilon service ladder | Forensic audit → automation dashboards → custom applications |
 | Positioning | *"Your data hides money. We find it."* Data/API first, then iOS/web |

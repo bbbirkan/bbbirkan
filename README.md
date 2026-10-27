@@ -28,15 +28,19 @@
 ## Shipped
 
 **[Voltara Signal](https://voltara.anvilon.net)** — financial intelligence API, live on RapidAPI
-21 finance channels watched around the clock, 3,200+ transcripts indexed, AI-extracted
+23 finance channels watched around the clock, 3,800+ transcripts indexed, AI-extracted
 sentiment per ticker — and every directional call scored against the actual market-adjusted
 return, not just logged. Query a stock, get the signal in milliseconds.
 `FastAPI` `NLP pipeline` `PostgreSQL` · *informational sentiment data, not investment advice*
 
-**Covenant Fuel** — enterprise iOS + dashboard for a Nasdaq-listed carrier
-A fuel logic engine for Covenant Logistics (CVLG): 2,500+ trucks, refueling decisions
-optimized against net margin. Native iOS app plus a PWA dashboard.
-`Swift` `TypeScript` `PWA` — [covenantfuel.com](https://covenantfuel.com)
+**[Anvilon Arena](https://arena.anvilon.net)** — an open trading experiment: can the bots beat buy-and-hold?
+Three bots and two benchmarks, each started with $10,000 on the same day (Oct 19, 2026),
+paper-traded in public with every account value on the page. Losses stay visible.
+*Paper trading, not investment advice.*
+
+**[JEV Subagent Router](https://github.com/bbbirkan/jev-subagent-router)** — open source
+Routes every AI subagent task to the cheapest model smart enough for it, with a
+self-updating weekly model catalog.
 
 **[Waymind](https://waymind.net)** — iOS · [live on the App Store](https://apps.apple.com/us/app/waymind/id6757075542)
 Zero-latency spatial distance analysis in a 2.4 MB binary. 100% on-device — no cloud, no leaks.
